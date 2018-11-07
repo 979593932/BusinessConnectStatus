@@ -1,0 +1,18 @@
+{
+  "name": "ycgame/business-connect-status",
+  "description": "test mysql and redis  connection status",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "李乐乐",
+      "email": "979593932@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {},
+  "autoload": {
+    "psr-4": {
+      "BusinessConnectStatus\\": "src/"
+    }
+  }
+}
