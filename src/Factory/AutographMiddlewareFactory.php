@@ -1,7 +1,7 @@
 <?php
 
 
-namespace BusinessTestConnectStatus\Factory;
+namespace BusinessConnectStatus\Factory;
 
 
 use Interop\Container\ContainerInterface;

@@ -1,13 +1,13 @@
 <?php
 
 
-namespace BusinessTestConnectStatus;
+namespace BusinessConnectStatus;
 
 
-use BusinessTestConnectStatus\Factory\AutographMiddlewareFactory;
-use BusinessTestConnectStatus\Factory\ConnectFactory;
-use BusinessTestConnectStatus\Middleware\AutographMiddleware;
-use BusinessTestConnectStatus\Action\AuthConnect;
+use BusinessConnectStatus\Factory\AutographMiddlewareFactory;
+use BusinessConnectStatus\Factory\ConnectFactory;
+use BusinessConnectStatus\Middleware\AutographMiddleware;
+use BusinessConnectStatus\Action\AuthConnect;
 
 
 class ConfigProvider

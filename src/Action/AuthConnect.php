@@ -1,15 +1,12 @@
 <?php
 
 
-namespace BusinessTestConnectStatus\Action;
+namespace BusinessConnectStatus\Action;
 
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use BusinessTestConnectStatus\Model\SyApiMysql;
-use BusinessTestConnectStatus\Model\SyGameMysql;
-use Redis;
 use Zend\Diactoros\Response\JsonResponse;
 
 class AuthConnect implements RequestHandlerInterface

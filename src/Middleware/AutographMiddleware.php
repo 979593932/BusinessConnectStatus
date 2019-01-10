@@ -1,7 +1,7 @@
 <?php
 
 
-namespace BusinessTestConnectStatus\Middleware;
+namespace BusinessConnectStatus\Middleware;
 
 
 use Psr\Http\Message\ResponseInterface;
