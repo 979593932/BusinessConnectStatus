@@ -1,12 +1,13 @@
 <?php
 
 
-namespace BusinessConnectStatus;
+namespace BusinessTestConnectStatus;
 
 
-use BusinessConnectStatus\Factory\ConnectFactory;
-use BusinessConnectStatus\Middleware\AutographMiddleware;
-use BusinessConnectStatus\Action\AuthConnect;
+use BusinessTestConnectStatus\Factory\AutographMiddlewareFactory;
+use BusinessTestConnectStatus\Factory\ConnectFactory;
+use BusinessTestConnectStatus\Middleware\AutographMiddleware;
+use BusinessTestConnectStatus\Action\AuthConnect;
 
 
 class ConfigProvider
@@ -17,6 +18,7 @@ class ConfigProvider
             'dependencies' => [
                 'factories' => [
                     AuthConnect::class => ConnectFactory::class,
+                    AutographMiddleware::class => AutographMiddlewareFactory::class
                 ]
             ],
             'routes' => [
@@ -32,7 +34,7 @@ class ConfigProvider
                     ],
                     'allowed_methods' => ['GET'],
                 ],
-            ]
+            ],
         ];
     }
 }

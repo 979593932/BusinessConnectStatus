@@ -1,14 +1,14 @@
 <?php
 
 
-namespace BusinessConnectStatus\Action;
+namespace BusinessTestConnectStatus\Action;
 
 
 use Psr\Http\Message\ResponseInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Psr\Http\Server\RequestHandlerInterface;
-use BusinessConnectStatus\Model\SyApiMysql;
-use BusinessConnectStatus\Model\SyGameMysql;
+use BusinessTestConnectStatus\Model\SyApiMysql;
+use BusinessTestConnectStatus\Model\SyGameMysql;
 use Redis;
 use Zend\Diactoros\Response\JsonResponse;
 
