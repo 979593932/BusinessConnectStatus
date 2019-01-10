@@ -8,8 +8,13 @@
       "email": "979593932@qq.com"
     }
   ],
-  "minimum-stability": "dev",
-  "require": {},
+  "require": {
+    "php": ">=7",
+    "zendframework/zend-diactoros": "^2.1",
+    "zendframework/zend-servicemanager": "^3.4",
+    "zendframework/zend-db": "^2.9",
+    "zendframework/zend-expressive": "^3.2"
+  },
   "autoload": {
     "psr-4": {
       "BusinessConnectStatus\\": "src/"

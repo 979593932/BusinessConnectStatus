@@ -7,8 +7,6 @@ namespace BusinessConnectStatus\Factory;
 use Interop\Container\ContainerInterface;
 use PDO;
 use Redis;
-use Zend\Db\Exception\ErrorException;
-use Zend\Diactoros\Response\JsonResponse;
 use Zend\ServiceManager\Factory\FactoryInterface;
 
 class ConnectFactory implements FactoryInterface
